@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-001</title>
-    <link rel="stylesheet" href="style/portfolio.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/portfolio.css"
+  </head>
+  <body>
     <section class="hero-section">
       <header class="header">
         <div class="container">
@@ -21,9 +21,9 @@
         <button class="hero-btn">Stay Focused</button>
       </section>
     </section>
-    <main class="container">
 
-        <section class="action-section">
+    <main class="container">
+      <section id="about" class="action-section">
         <div class="action-content">
           <h2>See It in Action</h2>
           <p>
@@ -37,7 +37,8 @@
           </div>
         </div>
       </section>
-      <section class="stats">
+
+      <section id="how-it-works" class="stats">
         <h2>Joined Thousands of Productive Users</h2>
         <div class="stats-grid">
           <div class="stat-item">
@@ -54,7 +55,8 @@
           </div>
         </div>
       </section>
-      <section class="testimonials">
+
+      <section id="testimonials" class="testimonials">
         <h2>What our users say</h2>
         <div class="testimonial-grid">
           <div class="testimonial-item">
@@ -102,19 +104,66 @@
         </div>
       </section>
 
-      <section class="cta-section">
+      <section id="services" class="cta-section">
         <div class="cta-content">
           <h2>Ready to focus better</h2>
           <p>
-            This template instantly leveled up our presence.” – Studio Vertex
+            This template instantly leveled up our presence." – Studio Vertex
           </p>
           <button class="cta-btn">Ger Started Free</button>
         </div>
         <div class="cta-image">
           <div class="cta-image-content">
+            
           </div>
         </div>
       </section>
-   </main>
-</body>
+
+      <section class="wrapper">
+        <div class="contact-heading">
+          <h1>Let's Get in<br />Touch</h1>
+        </div>
+        <div class="form-container">
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="example@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="full name" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                placeholder="write your message...."
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Get in Touch</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-logo">LOGO</div>
+        <p>
+          Ready to elevate your online presence? Contact us today to discuss
+          your project and discover how we can bring your vision to life.
+        </p>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#how-it-works">How it Works</a>
+          <a href="#services">Services</a>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
