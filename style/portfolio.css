@@ -155,7 +155,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: radial-gradient(
+  background-image: url(../images/wc-mini.png);
+  (
       circle at 30% 20%,
       rgba(76, 81, 191, 0.3) 0%,
       transparent 50%
@@ -169,7 +170,6 @@ body {
 }
 
 .action-image-content {
-    background-image: url(../images/wc-mini.png);
   position: relative;
   z-index: 2;
   
