@@ -186,3 +186,42 @@ body {
   color: #a0aec0;
   font-size: 0.9rem;
 }
+/* Stats Section */
+.stats {
+  background: #4e47ff1a;
+  margin: 3rem 0;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stats h2 {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+  color: #1a202c;
+  font-weight: 600;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.stat-item {
+  padding: 1rem;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #4c51bf;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: #718096;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
